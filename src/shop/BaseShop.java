@@ -16,9 +16,11 @@ public class BaseShop {
     }
 
     public void showItemsOnPolka() {
+        System.out.println("******************************************************");
         for (Item item : polka) {
-            System.out.print(item + "\t");
+            System.out.println(item + "\t");
         }
+        System.out.println("******************************************************");
     }
 
     public Item findItemOnPolka(String itemName) {
