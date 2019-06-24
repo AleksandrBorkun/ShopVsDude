@@ -29,6 +29,7 @@ public class Dude {
     public void checkKorzinu() {
         if (basket.size() == 0) {
             System.out.println("Nima nichego v nashei bezdonnoi korzine pokupok");
+            return;
         }
         System.out.println("V vashei bezdonnoi korzine next items:");
         for (Item item : basket) {
